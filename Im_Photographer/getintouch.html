@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>I'm Photographer - Get In Touch</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="no-index,no-follow">
+    <!--External Files-->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Muli">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand">
+    <!--Self Designed Favicon for the Project with my Initial Letter-->
+    <link rel="icon" href="images/favicon.png" type="image/png"> 
+    <script src="script/formValidate.js"></script>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <h1>I'm Photographer</h1>
+        <p>Capturing movements that lasts for Infinity .  .  .  .  .  .  .</p>
+         <!--Banner Image-->
+        <img src="images/cbanner.png" alt="Banner Image" class="img-width">
+    </header>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <a href="index.html">About Us</a>
+        <a href="plans.html" >Our Plans</a>
+        <a href="#" class="active">Get In Touch</a>
+    </nav>
+    <!-- The flexible grid (content) -->
+    <article>
+        <section>
+            <div class="row">
+                <div class="mainConF">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2606.841220188353!2d-122.91487808448066!3d49.203571584294046!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5485d871f5ee4dc9%3A0xf3a710065f3a2f3f!2sDouglas%20College!5e0!3m2!1sen!2sin!4v1595517517469!5m2!1sen!2sin" class="iframe-dimen" frameborder="0"  allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                </div>
+                <div class="main top">
+                    <h2>Please Fill The Form</h2>
+                    <div class="frmResult shadow">
+                        <span class="close" id="close" onclick="this.parentElement.style.display='none';">&times;</span> 
+                        <span id="showResult"></p>
+                    </div>
+                    <form action="#" id="frmCSForm" method="POST">
+                        <div>
+                            <label for="name">Name</label>
+                            <input type="text" required name="name" id="name">
+                        </div>
+                        <div>
+                            <label for="email">Email</label>
+                            <input type="email" required name="email" id="email">
+                        </div>
+                        <div>
+                            <label for="dob">Date of Birth</label>
+                            <input type="date" required name="dob" id="dob">
+                        </div>
+                        <div>
+                            <label for="contact">Contact Number</label>
+                            <input type="tel" required name="contact" id="contact">
+                        </div>
+                        <div>
+                            <label for="training">Are You Interested In Learning?</label>
+                            <input type="radio"  required name="training" value="Yes" id="training" checked><label for="training">Yes! Love To</label>
+                            <input type="radio" required name="training" value="No"><label for="training">Not Sure</label>
+                        </div>
+                        <div>
+                            <label for="message">Message</label>
+                            <textarea required name="message" id="message"></textarea>
+                        </div>
+                        <div class="frmButton">
+                            <input type="submit" onclick="validateSubmit()" value="Send">
+                            <input type="reset" onclick="clearForm()" value="Clear">
+                        </div>
+                    </form>
+                </div>
+                <div class="sideright">
+                    <h2>Need Help?</h2><br>
+                    <div class="sideDetails"><h4>General Enquiries</h4>
+                        <address>
+                            I'm Photographer,<br>
+                            PO British Columbia,<br>
+                            V3M 123
+                        </address>
+                        <span><br><b>Tel:</b> +1 (604) 444-4444<br>
+                        <b>Mobile:</b> +1 (604) 124-6564<br>
+                        <b>Email ID:</b> contactus@imphotograher.com</span>
+                        <p>
+                            <h4>Join Us</h4>
+                            Send your Resume at<br><cite>author@imphotograher.com</cite>
+                        </p>
+                    </div>
+                    <br>
+                </div>
+            </div>
+        </section>
+    </article>
+    <!-- Footer -->
+    <footer class="footer">
+        <cite>All rights reserved &copy; Author</cite>
+    </footer>
+</body>
+</html>
