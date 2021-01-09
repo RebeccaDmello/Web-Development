@@ -18,7 +18,7 @@ function validateEmail(form){
             email.setCustomValidity("");
             return true;
         }
-    }
+}
 ```
 "validity.valueMissing, validity.patternMismatch function" are some JavaScript in-built functions which are commonly used to validate email address.
 "required" attribute is a HTML5 attribute which checks if the input field is empty or not without any external library.
