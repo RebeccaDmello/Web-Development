@@ -1,7 +1,7 @@
 Using JavaSript to create a customizable output
 
 In these project, the generated output is based on the input provided by the user. For example, if the user selects small size than the image will be displayed in small size. 
-All these changes are performed using JavaScript i.e the CSS properties are set using JavaScript such as setAttribute function whic sets attributes of the targetted element.
+All these changes are performed using JavaScript i.e the CSS properties are set using JavaScript such as setAttribute function which sets attributes of the targetted element.
 
  if(imgRadio == "banana_split") {
         document.getElementById("figid").innerText = "Yummy Banana Split";
