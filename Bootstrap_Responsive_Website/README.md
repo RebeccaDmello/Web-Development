@@ -1,4 +1,4 @@
-Responsive Website using Bootstrap
+Responsive Website
 
 CSS Selectors used in these projects are
 ```
