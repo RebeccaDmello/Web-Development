@@ -2,8 +2,9 @@ This Repository Contains the implementation of all the concepts developed using 
 You will find individual README.md files present inside each individual project.
 
 Some Major Works:
-``
+
+```html
 https://iamphotographer.000webhostapp.com/
 
-
-``
+https://omnifood604.000webhostapp.com/
+```
