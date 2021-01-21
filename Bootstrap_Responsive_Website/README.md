@@ -1,7 +1,7 @@
 Responsive Website
 
 CSS Selectors used in these projects are
-```ruby
+```
 "tag_name" is also known as simple selector which sets css attributes to the same tags.
 ".class_name" is class selector which set attributes for the container having the class name. Same class names can be used with multiple tags.
 "#id_name"  is unique and more specific selector which sets css attributes for the particular container having the same id name.
